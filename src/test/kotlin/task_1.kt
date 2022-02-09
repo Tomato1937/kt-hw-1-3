@@ -1,7 +1,7 @@
 val timer = 1610
 
 fun main() {
-    println("Был(а) " + agoToText(timer = timer))
+    println("Был(а) " + agoToText(timer))
 }
 
 fun agoToText(timer: Int) = when (timer) {
